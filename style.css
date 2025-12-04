@@ -44,7 +44,7 @@ header {
     border-radius: 30%;
 
     box-shadow: 0 0 15px 15px rgb(0, 210,255,0.5);
-    transform: scale(1.05);
+ 
     transform: rotate(360deg) scale(1.2);
 
 
