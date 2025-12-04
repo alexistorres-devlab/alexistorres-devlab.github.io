@@ -19,6 +19,15 @@ header {
     font-size: 2.5rem;
     color: #00d2ff; /* Azul Cian */
     margin-bottom: 20px;
+
+    color: #00d2ff;
+    text-shadow:
+    0 0 5px #00d2ff,
+    0 0 10px #00d2ff,
+    0 0 20px #00d2ff,
+    0 0 40px #00d2ff;
+
+    animation: parpadeo 1.5s alternate;
 }
 
 .subtitulo {
@@ -88,4 +97,22 @@ footer {
     padding: 20px;
     font-size: 0.9rem;
     color: #777;
+}
+@keyframes parpadeo
+{
+    from{
+        
+        text-shadow: 
+            0 0 2px #00d2ff,
+            0 0 5px #00d2ff,
+            0 0 10px #00d2ff,
+            0 0 20px #00d2ff;
+    }to {
+        text-shadow: 
+            0 0 2px #00d2ff,
+            0 0 5px #00d2ff,
+            0 0 10px #00d2ff,
+            0 0 20px #00d2ff;
+    }
+    
 }
