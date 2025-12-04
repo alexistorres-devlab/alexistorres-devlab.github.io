@@ -27,7 +27,7 @@ header {
     0 0 20px #00d2ff,
     0 0 40px #00d2ff;
 
-    animation: parpadeo 1.5s alternate;
+    animation: parpadeo  1.5s infinite alternate;
 }
 
 .subtitulo {
